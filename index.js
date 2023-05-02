@@ -36,22 +36,22 @@ roleTyper()
       }
   };
 
-  GitHubCalendar(".calendar", "aamirfarookh", {
+  GitHubCalendar(".calendar", "rabhamonojoy", {
     responsive: true,
     global_stats: false,
     tooltips: true,
   });
 
   document.getElementById("resume-button-1").onclick=()=>{
-window.open("https://drive.google.com/file/d/1ibbT6SdnhUPlOiN5UQebQFWzAlu10do7/view?usp=share_link");
+window.open("https://drive.google.com/file/d/1rB2TD3ajaXZVkAI0AiRYiUbglzTaWIvx/view?usp=sharing");
   }
 
   document.getElementById("resume-button-2").onclick=()=>{
-    window.open("https://drive.google.com/file/d/1ibbT6SdnhUPlOiN5UQebQFWzAlu10do7/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/1rB2TD3ajaXZVkAI0AiRYiUbglzTaWIvx/view?usp=sharing");
   }
 
   document.getElementById("resume-button-3").onclick=()=>{
-    window.open("https://drive.google.com/file/d/1ibbT6SdnhUPlOiN5UQebQFWzAlu10do7/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/1rB2TD3ajaXZVkAI0AiRYiUbglzTaWIvx/view?usp=sharing");
   }
      
   

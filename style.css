@@ -284,11 +284,11 @@ body{
   .calendar{
     padding: 1%;
     margin-bottom: 20px;
-  }
+}
   
   
   
-    .contact-section {
+    /* .contact-section {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -296,7 +296,7 @@ body{
       text-align: center;
       padding: 0 2rem;
       /* margin-top: 200px;     */
-    }
+    /* }
     .contact-section-header > p {
       font-style: italic;
     }
@@ -320,7 +320,83 @@ body{
     }
     .contact-details:hover {
       transform: translateY(8px);
-    }
+    } */ 
+/* contacts */
+.contact-left {
+    flex-basis: 35%;
+    margin-bottom: 15px;
+  }
+  .contact-right {
+    flex-basis: 60%;
+  }
+  .contact-left p {
+    margin-top: 30px;
+  }
+  .contact-left p i {
+    color: #ff004f;
+    font-size: 25px;
+    margin-right: 15px;
+  }
+  .social-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: ease-in-out 0.4s;
+  }
+  .social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+  }
+  .btn {
+    background-color: #ff004f;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+  }
+  .btn:hover {
+    cursor: pointer;
+    color: #ff004f;
+    background-color: #fdc417;
+  }
+  .contact-right form {
+    width: 100%;
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding:15px 0;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #262626;
+  }
+  .copyright i {
+    color: #ff004f;
+  }
+  
+
     footer {
       font-weight: 300;
       display: flex;
@@ -509,4 +585,4 @@ body{
     #width{
       margin: 5%;
     }
-  }
+}
