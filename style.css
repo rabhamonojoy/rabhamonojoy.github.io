@@ -118,7 +118,7 @@ body{
     margin: 5% 0%;
   }
   
-  #resume-button-2{
+  #resume-link-2{
     /* background-color: white; */
     font-weight: bolder;
     font-size: larger;
@@ -128,7 +128,7 @@ body{
     color: white;
   }
   
-  #resume-button-2:hover,#resume-button-1:hover {
+  #resume-link-2:hover,#resume-button-1:hover {
     background-color: #45567d;
     border-radius: 7px;
     color: white;
