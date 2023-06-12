@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monojoy Rabha || Portfolio</title>
+    <title>Monojoy Rabha | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
     </script>
 
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <link rel="shortcut icon" href="./images/portfolioIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -19,16 +19,14 @@
 <body>
     <!----Hamburger---->
     <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <div>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <button id="resume-button-1" class="nav-link resume"><a id="resume-link-1"
-            href="./images/Monojoy_Rabha_Resume.pdf" download>Resume</a></button>
-            
+        <a href="./images/Monojoy_Rabha_Resume.pdf" id="resume-button-3" download>Resume <i class="fa fa-download"></i></a>
         </div>
     </div>
     <div id="main">
@@ -39,18 +37,16 @@
     <!----Navbar----->
 
     <div id="nav-menu">
-        <p class="name">
-             Monojoy Rabha 
-        </p>
+        <img src="./images/Logo.png" alt="" class="name">
         <div>
             <a href="#home" class="nav-link home">Home</a>
             <a href="#about" class="nav-link about">About</a>
             <a href="#skills" class="nav-link skills">Skills</a>
             <a href="#projects" class="nav-link projects">Projects</a>
             <a href="#contact" class="nav-link contact">Contact</a>
-            <button
-                id="resume-button-2"><a id="resume-link-2" style="color:#fff" href="./images/Monojoy_Rabha_Resume.pdf"
-                    download>Resume</a></button>
+            <button id="resume-button-1"><a href="./images/Monojoy_Rabha_Resume.pdf" class="nav-link resume" id="resume-link-1" download="">Resume
+                <i class="fa fa-download"></i></a></button>
+            
 
         </div>
     </div>
@@ -83,10 +79,9 @@
                 </p>
 
                 <div id="aboutflex">
-                    <button id="resume-button-2">
-                        <a href="./images/Monojoy_Rabha_Resume.pdf" id="resume-button-2" download>Resume <i
-                            class="fa fa-download"></i></a>
-                    </button>
+                    <button id="resume-button-2"> <a href="./images/Monojoy_Rabha_Resume.pdf" id="resume-link-2" download="">Resume <i
+                        class="fa fa-download"></i></a></button>
+                   
                 </div>
             </div>
             <!-- ********SKILLS****-->
@@ -151,7 +146,6 @@
 
 
             <!-- **********************PROJECTS*********************************** -->
-
             <div id="projects">
 
                 <h2 class="mid">These are some of my projects</h2>
@@ -301,38 +295,40 @@
         </div>
 
             <!-----CONTACTS------->
-            <div id="contact" class="lightm">
-                <div class="container">
-                  <div class="row">
-                    <div class="contact-left">
-                      <h1 class="sub-title glow">Contact Me</h1>
-                      <p id="contact-email"><i class="fas fa-paper-plane"></i>mjykoch177@gmail.com</p>
-                      <p id="contact-phone"><i class="fas fa-phone"></i></i></i>+91 6000579389</p>
-                      <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/monojoy-rabha-186459218/" id="contact-linkedin"><i
-                            class="fab fa-linkedin"></i></a>
-                      
-                        <a href="https://github.com/rabhamonojoy" id="contact-github"><i class="fab fa-github"></i></i></a>
-                      </div>
-                      <button
-                      id="resume-button-3"><a id="resume-link-3" style="color:#fff" href="./images/Monojoy_Rabha_Resume.pdf"
-                          download> Download Resume</a></button>
-                    </div>
-                    <div class="contact-right">
-                      <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Enter Your Name" required>
-                        <input type="email" name="Email" placeholder="Enter Your Email" required>
-                        <textarea name="Message" id="message-content" placeholder="Enter Your Message..."></textarea>
-                        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i>
-                          Send</button>
-                      </form>
-                      <span id="msg"></span>
-                    </div>
-                  </div>
-                </div>
+            <section id="contact" class="contact-section">
+              <h2 class="mid">Contact Me</h2>
+              <hr>
+              <div class="contact-section-header">
+                <h2>Let's work together...</h2>
+                <p>How do you take your coffee?</p>
               </div>
+              <div class="contact-links">
+                <a
+                  href="https://www.linkedin.com/in/monojoy-rabha-186459218/"
+                  target="_blank"
+                  class="btn contact-details"
+                  id="contact-linkedin"  
+                  ><i class="fab fa-linkedin"></i>LinkedIn</a
+                >
+                <a
+                 
+                  href="https://github.com/rabhamonojoy"
+                  target="_blank"
+                  class="btn contact-details"
+                  id="contact-github"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+               
+                
+                <a href="mailto:mjykoch177@gmail.com.com" class="btn contact-details" id="contact-email"><i class="fas fa-at"></i> mjykoch177@gmail.com</a
+                >
+                <a href="#" class="btn contact-details" id="contact-phone"
+                  ><i class="fas fa-mobile-alt"></i>+91 6000579389</a
+                >
+              </div>
+            </section>
 
-               <!-- footer -->
+               
              <footer>
               <p>
                 **All rights for this website are reserved with Monojoy Rabha.
@@ -348,4 +344,4 @@
 </body>
 
 </html>
-<script src="index.js"></script>
+<script src="./index.js"></script>
